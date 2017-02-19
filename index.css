@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 2000px;
+    font-family: 'PT Sans';
+}
+.main {
+    margin: 0 auto;
+    position: relative;
+    width: 605px;
+    height: 789px;
+}
+.top {
+    border: 2px rgba(0, 0, 0, 1) solid;
+    position: absolute;
+    background-color: rgba(235, 235, 235, 1);
+    width: 519px;
+    height: 746px;
+}
+.top .bookmark {
+    background-color: rgba(246, 142, 86, 1);
+    left: 494px;
+    top: 40px;
+    width: 107px;
+    height: 31px;
+}
+.container {
+    margin: 35px 30px;
+}
+h1 {
+    font-size: 24px;
+    color: rgba(51, 51, 51, 1);
+    line-height: 1.2;
+    text-align: left;
+}
+p {
+    font-size: 12px;
+    color: rgba(51, 51, 51, 1);
+    line-height: 1.2;
+    text-align: left;
+}
+article {
+    margin-top: 12px;
+}
+article.lorem img {
+    margin: 0 21px 21px 0;
+    width: 207px;
+    height: 111px;
+    float: left;
+}
+article.aliquam {
+    display: inline-block;
+}
+article.aliquam img {
+    width: 140px;
+    height: 140px;
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.nulla h2 {
+    font-size: 18px;
+    color: rgba(51, 51, 51, 1);
+    line-height: 1.2;
+    text-align: left;
+}
+.nulla table {
+    margin-top: 12px;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    width: 100%;
+}
+.nulla td:nth-child(odd) {
+    text-align: left;
+}
+.nulla td:nth-child(even) {
+    text-align: right;
+}
+.nulla img {
+    width: 194px;
+    height: 89px;
+}
+footer p {
+    margin: 12px;
+    font-size: 9px;
+    color: rgba(51, 51, 51, 1);
+    line-height: 1.2;
+    text-align: center;
+}
+aside {
+    border: 1px rgba(54, 47, 45, 1) solid;
+    background-color: rgba(251, 175, 93, 1);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 87px;
+    height: 69px;
+}
+aside h3 {
+    font-size: 16px;
+    color: rgba(51, 51, 51, 1);
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 8px;
+}
+.social {
+    margin-top: 8px;
+    text-align: center;
+}
+.middle {
+    border: 2px rgba(0, 0, 0, 1) solid;
+    position: absolute;
+    background-color: rgb(204, 204, 204);
+    left: 21px;
+    top: 20px;
+    width: 519px;
+    height: 746px;
+}
+.middle .bookmark {
+    background-color: rgb(57, 181, 74);
+    left: 472px;
+    top: 43px;
+    width: 95px;
+    height: 31px;
+}
+.bottom {
+    border: 2px rgba(0, 0, 0, 1) solid;
+    position: absolute;
+    background-color: rgb(172, 172, 172);
+    left: 40px;
+    top: 39px;
+    width: 519px;
+    height: 746px;
+}
+.bottom .bookmark {
+    background-color: rgb(0, 174, 239);
+    left: 440px;
+    top: 48px;
+    width: 95px;
+    height: 31px;
+}
+.bookmark {
+    border: 2px rgba(0, 0, 0, 1) solid;
+    border-radius: 0 10px 10px 0;
+    position: absolute;
+}
