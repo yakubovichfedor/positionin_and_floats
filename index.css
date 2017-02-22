@@ -48,8 +48,10 @@ article.lorem img {
     height: 111px;
     float: left;
 }
-article.aliquam {
-    display: inline-block;
+article.aliquam:after {
+    content: '';
+    display: block;
+    clear: both;
 }
 article.aliquam img {
     width: 140px;
