@@ -21,7 +21,7 @@ body {
 }
 .top .bookmark {
     background-color: rgba(246, 142, 86, 1);
-    left: 494px;
+    right: -84px;
     top: 40px;
     width: 107px;
     height: 31px;
@@ -117,7 +117,7 @@ aside h3 {
 }
 .middle .bookmark {
     background-color: rgb(57, 181, 74);
-    left: 472px;
+    right: -52px;
     top: 43px;
     width: 95px;
     height: 31px;
@@ -133,7 +133,7 @@ aside h3 {
 }
 .bottom .bookmark {
     background-color: rgb(0, 174, 239);
-    left: 440px;
+    right: -20px;
     top: 48px;
     width: 95px;
     height: 31px;
