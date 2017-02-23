@@ -50,11 +50,6 @@ article.lorem img {
     height: 111px;
     float: left;
 }
-article.aliquam:after {
-    content: '';
-    display: block;
-    clear: both;
-}
 article.aliquam img {
     width: 140px;
     height: 140px;
@@ -68,16 +63,16 @@ article.aliquam img {
     color: rgba(51, 51, 51, 1);
     line-height: 1.2;
 }
-.nulla table {
-    margin-top: 12px;
-    border-collapse: separate;
-    border-spacing: 0 10px;
-    width: 100%;
+.container-clear:after {
+    content: '';
+    display: block;
+    clear: both;
 }
-.nulla td:nth-child(even) {
-    text-align: right;
+.nulla img:nth-child(odd) {
+    float: right;
 }
 .nulla img {
+    margin-top: 10px;
     width: 194px;
     height: 89px;
 }
